@@ -32,6 +32,17 @@
     </div>
   </header>
 
+  {% if page.toc %}
+  <aside class="page-toc" aria-label="목차">
+    <p class="page-toc-title">Contents</p>
+    <ul>
+      {% for item in page.toc %}
+      <li><a{% if item.indent %} class="indent"{% endif %} href="#{{ item.id }}">{{ item.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+
   <main class="content">
     <div class="container">
       {{ content }}

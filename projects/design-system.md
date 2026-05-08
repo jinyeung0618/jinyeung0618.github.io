@@ -3,38 +3,33 @@ layout: default
 title: Design System
 permalink: /projects/design-system/
 description: Apple HIG + Dieter Rams 기반 토큰화된 디자인 시스템.
+toc:
+  - { id: philosophy, label: Philosophy }
+  - { id: principles, label: "10 Principles" }
+  - { id: color, label: Color }
+  - { id: typography, label: Typography }
+  - { id: spacing, label: "Spacing & Layout" }
+  - { id: grid, label: "Grid System" }
+  - { id: components, label: Components }
+  - { id: buttons, label: "— Buttons", indent: true }
+  - { id: inputs, label: "— Inputs", indent: true }
+  - { id: cards, label: "— Cards", indent: true }
+  - { id: badges-alerts, label: "— Badges & Alerts", indent: true }
+  - { id: tables, label: "— Tables", indent: true }
+  - { id: tabs, label: "— Tabs", indent: true }
+  - { id: modals, label: "— Modals", indent: true }
+  - { id: misc, label: "— Misc", indent: true }
+  - { id: shadows, label: Shadows }
+  - { id: motion, label: Motion }
+  - { id: iconography, label: Iconography }
+  - { id: darkmode, label: "Dark Mode" }
+  - { id: accessibility, label: Accessibility }
+  - { id: hierarchy, label: "Visual Hierarchy" }
+  - { id: whitespace, label: Whitespace }
+  - { id: tokens, label: "Design Tokens" }
+  - { id: responsive, label: Responsive }
+  - { id: changelog, label: Changelog }
 ---
-
-<aside class="page-toc" aria-label="목차">
-  <p class="page-toc-title">Contents</p>
-  <ul>
-    <li><a href="#philosophy">Philosophy</a></li>
-    <li><a href="#principles">10 Principles</a></li>
-    <li><a href="#color">Color</a></li>
-    <li><a href="#typography">Typography</a></li>
-    <li><a href="#spacing">Spacing &amp; Layout</a></li>
-    <li><a href="#grid">Grid System</a></li>
-    <li><a href="#components">Components</a></li>
-    <li><a class="indent" href="#buttons">— Buttons</a></li>
-    <li><a class="indent" href="#inputs">— Inputs</a></li>
-    <li><a class="indent" href="#cards">— Cards</a></li>
-    <li><a class="indent" href="#badges-alerts">— Badges &amp; Alerts</a></li>
-    <li><a class="indent" href="#tables">— Tables</a></li>
-    <li><a class="indent" href="#tabs">— Tabs</a></li>
-    <li><a class="indent" href="#modals">— Modals</a></li>
-    <li><a class="indent" href="#misc">— Misc</a></li>
-    <li><a href="#shadows">Shadows</a></li>
-    <li><a href="#motion">Motion</a></li>
-    <li><a href="#iconography">Iconography</a></li>
-    <li><a href="#darkmode">Dark Mode</a></li>
-    <li><a href="#accessibility">Accessibility</a></li>
-    <li><a href="#hierarchy">Visual Hierarchy</a></li>
-    <li><a href="#whitespace">Whitespace</a></li>
-    <li><a href="#tokens">Design Tokens</a></li>
-    <li><a href="#responsive">Responsive</a></li>
-    <li><a href="#changelog">Changelog</a></li>
-  </ul>
-</aside>
 
 <header class="page-header">
   <p class="meta">2026 · Design System</p>

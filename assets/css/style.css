@@ -127,8 +127,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* sticky header offset for anchor jumps */
   word-break: keep-all;
   overflow-wrap: break-word;
+}
+
+/* extra safety — give each heading some scroll margin */
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+  scroll-margin-top: 80px;
 }
 
 body {
