@@ -101,10 +101,46 @@
         scrollToAnchor(href);
         history.pushState(null, '', href);
       });
-      // Handle direct URL load with hash
       if (location.hash) {
         setTimeout(() => scrollToAnchor(location.hash), 0);
       }
+    })();
+
+    // Scrollspy — highlight TOC item for current viewport section
+    (function() {
+      const tocLinks = document.querySelectorAll('.page-toc a');
+      if (!tocLinks.length) return;
+      const targets = Array.from(tocLinks)
+        .map(a => document.getElementById(a.getAttribute('href').slice(1)))
+        .filter(Boolean);
+      if (!targets.length) return;
+
+      function setActive(id) {
+        tocLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+        });
+      }
+
+      let ticking = false;
+      function update() {
+        const header = document.querySelector('.site-header');
+        const offset = (header ? header.offsetHeight : 0) + 16;
+        let activeId = targets[0].id;
+        for (const target of targets) {
+          if (target.getBoundingClientRect().top - offset <= 0) {
+            activeId = target.id;
+          } else {
+            break;
+          }
+        }
+        setActive(activeId);
+        ticking = false;
+      }
+      window.addEventListener('scroll', () => {
+        if (!ticking) { requestAnimationFrame(update); ticking = true; }
+      }, { passive: true });
+      window.addEventListener('resize', update, { passive: true });
+      update();
     })();
   </script>
 </body>

@@ -1035,7 +1035,14 @@ hr {
   text-decoration: none;
 }
 
+.page-toc a.active {
+  color: var(--color-primary);
+  border-left-color: var(--color-primary);
+  font-weight: 600;
+}
+
 .page-toc a.indent { padding-left: var(--space-6); color: var(--text-tertiary); }
+.page-toc a.indent.active { color: var(--color-primary); }
 
 .page-toc::-webkit-scrollbar { width: 4px; }
 .page-toc::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 2px; }
