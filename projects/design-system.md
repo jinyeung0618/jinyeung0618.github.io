@@ -770,8 +770,7 @@ h1 {
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
-| 2026-03-31 | 1.0.0 | 디자인 시스템 초기 버전 작성. 철학·토큰·컴포넌트·가이드라인 전체 구조 완성 |
-| 2026-05-08 | 1.0.1 | 포트폴리오에 게시. Vue Integration 섹션 제외, 라이브 컴포넌트 데모로 재구성 |
+| 2026-05-08 | 1.0.0 | 초안 작성 |
 
 ---
 
@@ -779,4 +778,4 @@ h1 {
 >
 > 이 가이드를 참고하되, 맹목적으로 따르지 마라. 원칙을 이해하고, 상황에 맞게 판단하라.
 
-<p style="text-align:center;color:var(--text-tertiary);font-size:var(--text-xs);font-family:var(--font-mono);margin-top:var(--space-12);">© 최진영(Kcarl) · v1.0.1</p>
+<p style="text-align:center;color:var(--text-tertiary);font-size:var(--text-xs);font-family:var(--font-mono);margin-top:var(--space-12);">© 최진영(Kcarl) · v1.0.0</p>
