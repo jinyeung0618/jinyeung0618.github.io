@@ -1,14 +1,14 @@
 ---
 layout: default
 title: 최진영 · Kcarl
-description: 디자이너·개발자. 명확함, 절제, 일관성을 추구합니다.
+description: 디자인을 좋아하는 개발자. 명확함, 절제, 일관성을 추구합니다.
 ---
 
 <section class="hero">
   <p class="eyebrow">최진영 · Kcarl</p>
-  <h1>디자이너이자<br>개발자입니다.</h1>
+  <h1>개발자입니다.</h1>
   <p class="subtitle">
-    Apple HIG와 Dieter Rams를 좋아합니다. 토큰화된 디자인 시스템을 만들고, 자동화된 도구를 짜며, 일상에서 명확함과 절제를 추구합니다.
+    디자인을 좋아하는 개발자. Apple HIG와 Dieter Rams의 명료함을 좋아하고, 토큰화된 시스템과 자동화된 도구를 만드는 일에 시간을 씁니다.
   </p>
 </section>
 
