@@ -1,0 +1,29 @@
+title: 최진영 · Kcarl
+description: 디자이너·개발자. 명확함, 절제, 일관성을 추구합니다.
+author: 최진영(Kcarl)
+url: "https://jinyeung0618.github.io"
+
+# Navigation
+nav:
+  - title: About
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Now
+    url: /now/
+  - title: Contact
+    url: /contact/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - "*.bak"
