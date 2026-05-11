@@ -18,10 +18,10 @@ permalink: /projects/
     </a>
   </li>
   <li>
-    <a href="{{ '/projects/morning-report/' | relative_url }}">
-      <p class="meta">2026 · 자동화 도구</p>
-      <h2>Morning Report</h2>
-      <p>매일 평일 오전 10시, 미국·한국 시장 뉴스를 검색해 마크다운으로 정리하고 GitHub Pages에 자동 발행. Claude를 리서치 보조로 활용.</p>
+    <a href="{{ '/projects/finance/' | relative_url }}">
+      <p class="meta">2026 · 학습 + 자동화</p>
+      <h2>재테크 공부</h2>
+      <p>주식 학습 흐름을 한 곳에 정리한 사이트. 매일 자동 발행되는 모닝 리포트 + 종목별 장기 차트와 변곡점 사건 툴팁. Claude를 리서치 보조로, Chart.js로 시각화.</p>
     </a>
   </li>
 </ul>
